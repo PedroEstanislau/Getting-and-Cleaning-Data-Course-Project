@@ -108,4 +108,4 @@ agg_df_final$activity[agg_df_final$activity == 6] <- "laying"
 ##################################################
 # (9) ---  write tab delimited text file
 ##################################################
-write.table(agg_df_final, "course-project-tidy-data.txt", sep="\t")
+write.table(agg_df_final, "course-project-tidy-data.txt", sep="\t", row.name=FALSE )
